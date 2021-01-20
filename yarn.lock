@@ -295,39 +295,6 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@effect-ts/core@^0.12.16":
-  version "0.12.16"
-  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.12.16.tgz#1d3be66b224a97936f0c1dc2952ee83c576735b3"
-  integrity sha512-EltQ+9/D3OjbNYWoWeuhOanWCDQpubNDzpBcnP4A5a4fj/aGtvWvVn5To7V91/7VOkE8u/vs7O91ugIOFNwtJw==
-  dependencies:
-    "@effect-ts/system" "^0.10.14"
-    "@effect-ts/tracing-utils" "^0.2.4"
-
-"@effect-ts/monocle@^0.11.16":
-  version "0.11.16"
-  resolved "https://registry.yarnpkg.com/@effect-ts/monocle/-/monocle-0.11.16.tgz#8bafccaa13def758a07aded0b005261d0f08f3cd"
-  integrity sha512-6nWREGXL3kHEuU4B3TIlzwUim+KQRIDuEh0E5OWeebVOQVfc/CKqxkoix/Z+nxfsPG2dTb/6SwL2xDl7rlQyqg==
-  dependencies:
-    "@effect-ts/core" "^0.12.16"
-    "@effect-ts/tracing-utils" "^0.2.4"
-
-"@effect-ts/morphic@^0.12.16":
-  version "0.12.16"
-  resolved "https://registry.yarnpkg.com/@effect-ts/morphic/-/morphic-0.12.16.tgz#b5d8059c85125c8e8fa36015359a5227c62c6ca4"
-  integrity sha512-SxuQYIdEt3vsw9spCxMtmvH/hBthZA88nfNOxEp+vMGKfvu32IkAdd5O0oFwK/EgJ1dfWdTHbV4k8Sa/1DxFpg==
-  dependencies:
-    "@effect-ts/core" "^0.12.16"
-    "@effect-ts/monocle" "^0.11.16"
-    "@effect-ts/tracing-utils" "^0.2.4"
-
-"@effect-ts/node@^0.4.16":
-  version "0.4.16"
-  resolved "https://registry.yarnpkg.com/@effect-ts/node/-/node-0.4.16.tgz#3150836dc730ea670e7b24e220285bf0786415b8"
-  integrity sha512-8OuC9Xilt3smMaiRs785b64Yrj4wHRbQXwMBeqOUVOZBODP10N4i8ZmKOx61Ec19fvJcYYBTPiVyc0HfIb9Aqw==
-  dependencies:
-    "@effect-ts/core" "^0.12.16"
-    "@effect-ts/tracing-utils" "^0.2.4"
-
 "@effect-ts/tracing-plugin@^0.2.6":
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/@effect-ts/tracing-plugin/-/tracing-plugin-0.2.6.tgz#d45d46f506cb2ab4209276033cc2a315b009f15b"
@@ -8266,10 +8233,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@4.2.0-dev.20210112:
-  version "4.2.0-dev.20210112"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.0-dev.20210112.tgz#2c39f1e8dbf38508818259b94cf00388ebb68b3b"
-  integrity sha512-fmuDKLK0P2rfHpJwVyZ/WLFFdplDdNfLHBAAsgPDiwZFEKv3DFYvWc0B/WZxS1HyMW4926WdFkphxCfwkOyJXg==
+typescript@4.2.0-dev.20210120:
+  version "4.2.0-dev.20210120"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.0-dev.20210120.tgz#de73e51a7cf8f2bc6a553cedd2ae1f9568600c84"
+  integrity sha512-ko+8fE1gUb7LlcfZVodyMJ5ErCkucpQ3ydkMxLelzPC14LAY/RQ+846hRGAyUBLF22J4di+/y4bvGwzXC+6o1Q==
 
 typescript@next:
   version "4.2.0-dev.20210119"
